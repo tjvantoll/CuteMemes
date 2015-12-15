@@ -29,7 +29,6 @@ function loadItems() {
 			after = response.data.after;
 			response.data.children.forEach(function(item) {
 				if (item.data.url.match(/.jpg/)) {
-					item.data.url = item.data.url.replace("http", "https");
 					model.reddit.push({
 						title: item.data.title,
 						url: item.data.url,
