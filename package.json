@@ -9,8 +9,6 @@
 		}
 	},
 	"dependencies": {
-		"moment": "^2.10.6",
-		"nativescript-social-share": "^1.1.2",
 		"tns-core-modules": "1.5.0"
 	}
 }
