@@ -15,7 +15,7 @@ exports.loaded = function(args) {
 	page.bindingContext = model;
 	if (page.ios) {
 		var navBar = page.ios.navigationController.navigationBar;
-		navBar.barTintColor = UIColor.colorWithRedGreenBlueAlpha(0.81, 0.89, 0.97, 1);
+		navBar.barStyle = UIBarStyle.UIBarStyleBlack;
 	}
 	loadItems();
 };
